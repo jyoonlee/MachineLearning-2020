@@ -417,10 +417,4 @@ plt.ylabel("TPR")
 plt.title("Models Roc Curve", fontsize=25)
 plt.show()
 
-for test_case in range(1, T + 1):
-    max = 0
-    for x in range(10) :
-        b = int(input())
-        if (b>max) :
-        	max = b
-    	print("#{} {}".format(T,max))
+

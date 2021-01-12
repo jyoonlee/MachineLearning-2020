@@ -18,4 +18,4 @@ df = pd.read_csv('datasets/Thursday-15-02-2018_TrafficForML_CICFlowMeter.csv')
 sample_set = df.groupby('Label').apply(sampling_func, sample_pct=50000)
 sample_set.sort_index()
 
-sample_set.to_csv('C:/Users/junso/PycharmProjects/Exercise/Sampling Result.csv')
+sample_set.to_csv('C:/Users/jaeyoon/PycharmProjects/Exercise/Sampling Result.csv')
